@@ -1,0 +1,25 @@
+POST http://localhost:8002/products
+Content-Type: application/json
+
+{
+    "name": "Caderno Tilibra",
+    "price": 20.12
+}
+
+####
+
+GET http://localhost:8002/products
+
+####
+
+PUT http://localhost:8002/products/e01dc3fe-a49e-4078-ad45-883b0785d4ac
+Content-Type: application/json
+
+{
+    "name": "Caneta FaberCastell Azul",
+    "price": 8.50
+}
+
+####
+
+DELETE  http://localhost:8002/products/e806fb1b-071b-4434-a388-3b48a7160231
